@@ -9,8 +9,8 @@ int FindLargest(int arr[], int size)
          {
                 largest = arr[i];
          }
-    return largest;
     }
+    return largest;
 }
 
 int main()
@@ -23,5 +23,5 @@ int main()
         scanf("%d", &arr[i]);
     }
     int Findlargest(int arr[],int size);
-    printf("Largest number is ; %d ", FindLargest(arr,size));
+    printf("Largest number is  %d ", FindLargest(arr,size));
 }
